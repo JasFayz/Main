@@ -106,7 +106,9 @@ body {
     width: 8px;
     height: 8px;
 }
-
+.top-slider .carousel-item img {
+    height: 820px;
+}
 
 .section-info{
    padding-top: 50px;
