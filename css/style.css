@@ -8,6 +8,8 @@ body {
     color: #8c8c8c;
 }
 .btn {
+    width: 166px;
+    height: 43px;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(174, 174, 174);
@@ -111,14 +113,17 @@ body {
 }
 
 .section-info{
-   padding-top: 50px;
+    height: 432px;
+   
 }
 .subtitle {
     color: #808080;
     font-size: 10px;
     text-transform: uppercase;
     font-weight: 500;
+    margin: 0;
 }
+  
 .title{
     color: #444444;
     font-size: 30px;
@@ -137,11 +142,12 @@ body {
 
 
 
-.section-info__btn{
+.btn-green{
     border-style: solid;
     border-width: 1px;
     border-color: rgb(139, 195, 74);
     background-color: rgba(222, 170, 148, 0);
+    font-size: 13px;
     color: rgb(139, 195, 74);
 }
 .section-info__btn:hover,.section-info__btn:focus{
@@ -158,4 +164,43 @@ body {
     top: -150px;
     left: -40px;
     z-index: 1;
+}
+
+
+.facilities {
+    background-color: #ebebeb;
+    padding: 50px;
+    overflow: hidden;
+}
+.facilities h4{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 400;
+}
+.facilities h4::after{
+    content: '';
+    width: 27px;
+    height: 1px;
+    background: #808080;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.facilities .text {
+    color: #808080;
+    font-size: 14px;
+}
+.facilities i {
+    font-size: 30px;
+    color: #444444;
+}
+.facilities .cart {
+    margin-top: 55px;
+}
+.facilities img {
+    width: 450px;
+}
+.facilities .book .front-img {
+    top: 200px;
+    right: -250px;
 }
